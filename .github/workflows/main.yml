@@ -35,6 +35,9 @@ jobs:
       # Build  app for production
       - name: Build app bundle
         run: npm run build:prod 
+      # Route file renaming
+      - name: Rename index for routing
+        run: mv dist/angular-proc/index.html dist/angular-proc/404.html
       # Deploy in GitHub pages
       - name: Deploy to pages
         uses: crazy-max/ghaction-github-pages@v4.1.0
