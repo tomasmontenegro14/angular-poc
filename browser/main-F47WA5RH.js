@@ -1,0 +1,1 @@
+import{a as t,b as p,c as r}from"./chunk-UQI6JOVI.js";import"./chunk-P6ZEPHPS.js";var e=[{path:"app",loadComponent:()=>import("./chunk-NZ3DMMO3.js").then(o=>o.AppComponent)},{path:"about",loadComponent:()=>import("./chunk-7FXKA7Q7.js").then(o=>o.AboutComponent)},{path:"",redirectTo:"/about",pathMatch:"full"}];var n={providers:[p(e)]};t(r,n).catch(o=>console.error(o));
